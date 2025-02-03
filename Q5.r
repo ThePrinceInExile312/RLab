@@ -1,3 +1,16 @@
+# minimal
+# students <- data.frame(
+#   name = c("Alice", "Bob", "Charlie", "David"),
+#   math = c(85, 70, 95, 60),
+#   sci = c(90, 65, 85, 75),
+#   att = c(80, 50, 90, 60)
+# )
+
+# students$avg <- rowMeans(students[, 2:3])  # Calculate average score
+# students$lowat <- students$att < 75  # Check low attendance
+
+# print(students[, c("name", "avg", "lowat")])  # Generate report
+
 library(dplyr)
 
 # Initialize students data frame
